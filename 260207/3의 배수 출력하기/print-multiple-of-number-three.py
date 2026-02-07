@@ -1,7 +1,7 @@
 N = int(input())
-i  = 3
+i  = 1
 
-while i <= 27:
-    print(i,end=" ")
-    i = i + 3
+while i*3 <= 27:
+    print(i*3,end=" ")
+    i+=1
 
